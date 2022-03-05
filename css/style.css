@@ -8,7 +8,7 @@ body {
   background-color: rgb(150, 28, 20);
 }
 
-h2 {
+h1 {
   background-color: rgb(255, 255, 255);
   color: Black;
   padding: 40px;
@@ -18,3 +18,4 @@ h2 {
 p {
   background-color: rgb(255, 255, 255);
 }
+
