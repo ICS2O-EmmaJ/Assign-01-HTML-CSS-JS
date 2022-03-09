@@ -28,11 +28,28 @@ h4 {
 
 p {
   background-color: rgb(255, 255, 255);
+  width: 90%;
 }
 
 h5 {
   background-color: rgb(255, 255, 255);
+  padding: 20px;
 }
+
+h4 {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 20%;
+}
+
+h6 {
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+}
+
+h3 {
+  background-color: rgb(255, 255, 255);
+  width: 40%;
 
 
 

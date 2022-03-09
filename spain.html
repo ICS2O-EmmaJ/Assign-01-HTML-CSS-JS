@@ -17,13 +17,14 @@
 		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_purple.min.css" />
     <title>Spain</title>
   </head>   
-    <h1>Spain</h1>
+    <h1><font face="Papyrus">Spain</h1>
   <body>
     <img src="./images/welcometospain.jpg" alt="style" width="620">
     <img src="./images/Untitled design (3).png" alt="style" width="550">
     <img src="./images/map.jpeg" alt="style" width="500">
     </div>
     <br>
+  <center>
     <script>
       function myButtonClicked() {
         alert("Bienvenida a españa!")
@@ -33,7 +34,36 @@
 		<button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
 		  Welcome to Spain!🇪🇸
 		</button>
+  </center>
     <br>
-    <br>
+    <center><p><font face="Papyrus">Phew! I'm glad we landed safely. Welcome to Spain, the largest country in Southern Europe, mostly situated on the Iberian Peninsula. Including everything from beautiful cathedrals, world-class art, delicious food, fantastic beaches and lively nightlife. A variety of historical influences shape the culture of Spain, primarily the ancient Romans, the Celtics, the Phoenicians of the eastern Mediterranean, the Carthaginians and the Visigoths. Spanish art, architecture, cuisine, and music have been shaped by the country's Mediterranean climate and geography.</p></center>
 
-    <p>Phew! What a short flight! Welcome to Spain.</p>
+<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Get Tickets Here</button>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script>
+(function() {
+  'use strict';
+  var snackbarContainer = document.querySelector('#demo-snackbar-example');
+  var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+  var handler = function(event) {
+    showSnackbarButton.style.backgroundColor = '';
+  };
+  showSnackbarButton.addEventListener('click', function() {
+    'use strict';
+    showSnackbarButton.style.backgroundColor = '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    var data = {
+      message: '+ Ticket',
+      timeout: 2000,
+      actionHandler: handler,
+      actionText: 'Undo'
+    };
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+  });
+}());
+</script>
+
+    <img src=""

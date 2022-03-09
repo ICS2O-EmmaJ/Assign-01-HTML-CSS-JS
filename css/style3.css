@@ -1,6 +1,6 @@
 /* Created by: Emma Janani
 * Created on: March 2022
-* This CSS file defines the style for index.html
+* This CSS file defines the style for france.html
 * ICS2O-Assign-01: HTML, CSS & JS
 */
 
@@ -33,6 +33,14 @@ h6 {
 p {
   background-color: #01134f;
   color: #ffffff;
+  width: 60%;
 }
+
+h6 {
+  background-color: #01134f;
+  color: #ffffff;
+  width: 60%;
+}
+
 
 <div style="background-color:blue">
