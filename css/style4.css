@@ -5,19 +5,24 @@
 */
 
 body {
-  background-color: #12b027;
+  background-color: #228c3e;
 }
 
 h1 {
   background-color: Black;
-  color: #ffe224;
+  color: White;
   padding: 40px;
   text-align: center;
 }
 
-p {
+h6 {
   background-color: Black;
-  color: #ffe224;
+  color: White;
+}
+
+h5 {
+  background-color: Black;
+  color: White;
 }
 
 <div style="background-color:blue">

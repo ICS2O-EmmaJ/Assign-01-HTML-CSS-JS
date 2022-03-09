@@ -15,6 +15,21 @@ h1 {
   text-align: center;
 }
 
+h5 {
+  background-color: #01134f;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+h6 {
+  background-color: #01134f;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+
 p {
   background-color: #01134f;
   color: #ffffff;
