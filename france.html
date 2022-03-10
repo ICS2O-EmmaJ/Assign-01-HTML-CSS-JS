@@ -14,7 +14,7 @@
     <link rel="manifest" href="./fav_index/site.webmanifest">
 		<!-- Google's MDL -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_purple.min.css" />
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-red.min.css" />
     <title>France</title>
   </head>   
   <body>
@@ -25,38 +25,46 @@
     </div>
     <br>
     <br>
-  <center>
-    <script>
+    <center><script>
       function myButtonClicked() {
         alert("Bienvenue en France!")
       }
-    </script>
-  </center>
+    </script></center>
 		<!-- Colored raised button -->
 		<button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
 		  Welcome to France!🇫🇷 
 		</button>
     <br>
     <center><h6><font face="Papyrus">Wow! I could come to France a hundred times and it would still feel like the first time. There's just so much to see and do! France is a country located on the western edge of Europe, bordered by the Bay of Biscay, the English Channel, and the North Sea. France is one of the planet's most visited tourist destinations, with a history that goes back over a thousand years. Its popularity and appeal is due to its historical treasures, landscapes and striking culture. The charming country is home to some of the most popular tourist attractions in the world! Here is a table with just a few of them.</h6></center>
-  <center>
-    <table>
-      <tr>
-        <th>Eiffel Tower:</th>
-        <td>1887</td>
-        <td>It is a symbol of France and one of the world's most recognizable landmarks. This metallic structure of 1,063 feet was designed by Gustave Eiffel.</td>
-      </tr>
-      <tr>
-        <th>Musée du Louvre:</th>
-        <td>1793</td>
-        <td>The world's largest museum and displays countless masterpieces.</td>
-      </tr>
-      <tr>
-        <th>Château de Versailles:</th>
-        <td>1634</td>
-        <td>A former royal residence and a world heritage site for 40 years.</td>
-      </tr>
-    </table>
-  </center>
+<center>
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Attraction:</th>
+      <th>Year Built:</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Eiffel Tower</td>
+      <td>1887</td>
+      <td>It is a symbol of France and one of the world's most recognizable landmarks. This metallic structure of 1,063 feet was designed by Gustave Eiffel.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Musée du Louvre</td>
+      <td>1793</td>
+      <td>The world's largest and most-visited museum and displays countless masterpieces, such as the Mona Lisa and the Venus de Milo.</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Château de Versailles</td>
+      <td>1634</td>
+      <td>A former royal residence and a world heritage site for 40 years, and one of the greatest achievements in French 17th century art.</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+    
     <center><h6><font face="Papyrus">Oh! It looks like there's a message. Check it out to see what it says.</h6></center>
 
 <!-- Simple Dialog -->
