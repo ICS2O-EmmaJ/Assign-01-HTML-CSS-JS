@@ -22,14 +22,6 @@ h5 {
   text-align: center;
 }
 
-h6 {
-  background-color: #01134f;
-  color: #ffffff;
-  padding: 40px;
-  text-align: center;
-}
-
-
 p {
   background-color: #01134f;
   color: #ffffff;
@@ -39,7 +31,7 @@ p {
 h6 {
   background-color: #01134f;
   color: #ffffff;
-  width: 60%;
+  width: 100%;
 }
 
 
